@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+/* no tailwind v4 o dark: segue o sistema por padrão, aqui troca pra usar a classe .dark */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  /* no v4 a borda padrão virou currentColor, então volto pra um cinza */
+  *, ::after, ::before {
+    border-color: var(--color-slate-200);
+  }
+  .dark *, .dark ::after, .dark ::before {
+    border-color: var(--color-slate-700);
+  }
+
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+/* animação de entrada do modal */
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to   { opacity: 1; transform: none; }
+}
+
+.modal-entrada {
+  animation: aparecer 0.25s ease-out;
+}
