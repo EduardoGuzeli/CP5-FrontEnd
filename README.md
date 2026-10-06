@@ -48,9 +48,13 @@ Depois é só abrir o endereço que o Vite mostrar no terminal (normalmente `htt
 - **Estados e microinterações:** `hover:`, `focus:`, `active:`, `disabled:`, `group-hover:` (seta que aparece nos cards) e `peer-checked:` (botões de prioridade), com `transition`, `duration-*` e `ease-*`.
 - **Busca:** filtra os cards de projeto enquanto digita.
 
+## Link do projeto
+
+https://cp-5-front-end-five.vercel.app/
+
 ## Link do GitHub
 
-(https://cp-5-front-end-five.vercel.app/)
+https://github.com/EduardoGuzeli/CP5-FrontEnd
 
 ## Dificuldades encontradas
 
