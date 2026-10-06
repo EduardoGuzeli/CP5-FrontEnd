@@ -50,7 +50,7 @@ Depois é só abrir o endereço que o Vite mostrar no terminal (normalmente `htt
 
 ## Link do GitHub
 
-(colar aqui o link do repositório)
+(https://cp-5-front-end-five.vercel.app/)
 
 ## Dificuldades encontradas
 
